@@ -6,14 +6,7 @@ import {
 import {publicRoutes} from "../routes";
 
 const AppRouter: FunctionComponent = () => {
-    // const {isAuth} = useTypedSelector(state => state.auth)
     return (
-        // isAuth
-        //     ?
-        //     <Routes>
-        //         {privateRoutes.map(route => <Route {...route}/>)}
-        //     </Routes>
-        //     :
             <Routes>
                 {publicRoutes.map(route => <Route {...route} />)}
             </Routes>

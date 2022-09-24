@@ -18,6 +18,7 @@ const HomePage: FunctionComponent = () => {
                     Сайт визитка
                 </Text>
             </Flex>
+
             <Flex flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
 
                 <Flex width={"50vw"} style={{marginTop: "3%"}} flexDirection={"column"}>
@@ -31,10 +32,19 @@ const HomePage: FunctionComponent = () => {
 
                 <Flex width={"50vw"} style={{marginTop: "3%"}} flexDirection={"column"}>
                     <Text fontSize={"3xl"} color={"black"} as={"b"} textAlign={"center"}>
-                        2020-2022 год
+                        2021 год
                     </Text>
                     <Text fontSize={"2xl"} color={"black"} as={"samp"}>
-                         Окончил Яндекс Лицей с отличием. Самостоятельное изучение таких языков программирования как: JavaScript, C++. Языка размtтки - HTML, языка запросов - SQL
+                        Написал бота для ВК, знакомство с основами фреймворка Django для Python
+                    </Text>
+                </Flex>
+
+                <Flex width={"50vw"} style={{marginTop: "3%"}} flexDirection={"column"}>
+                    <Text fontSize={"3xl"} color={"black"} as={"b"} textAlign={"center"}>
+                        2022 год
+                    </Text>
+                    <Text fontSize={"2xl"} color={"black"} as={"samp"}>
+                         Окончил Яндекс Лицей с отличием. Самостоятельное изучение таких языков программирования как: JavaScript, C++. Языка разметки - HTML, языка запросов - SQL
                     </Text>
                 </Flex>
 
