@@ -1,6 +1,5 @@
-import {FunctionComponent, useEffect} from "react";
-import {Link} from "react-router-dom";
-import {Box, Button, Flex, Stack, Text} from "@chakra-ui/react";
+import {FunctionComponent} from "react";
+import {Flex, Text} from "@chakra-ui/react";
 
 const HomePage: FunctionComponent = () => {
 
